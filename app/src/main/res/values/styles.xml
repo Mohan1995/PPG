@@ -1,0 +1,99 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextInputStyle">
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="colorControlActivated">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/white</item> <!-- for uncheck state -->
+        <!-- Color when pressed -->
+        <item name="colorControlNormal">@color/colorAccent</item>
+
+    </style>
+    <style name="EditTextStyleNew">
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+    </style>
+
+
+    <style name="EditTextStyleNew1">
+        <item name="colorControlNormal">@color/edit_text_activated_color</item>
+        <item name="colorControlActivated">@color/edit_text_activated_color</item>
+        <item name="colorControlHighlight">@color/edit_text_activated_color</item>
+        <item name="android:textColorPrimary">@color/edit_text_activated_color</item>
+        <item name="android:textColorHint">@color/edit_text_activated_color</item>
+    </style>
+
+    <!-- Dark theme. -->
+    <style name="CaldroidDefaultDark" parent="CaldroidDefault">
+        <item name="styleCaldroidViewLayout">@style/CaldroidDefaultDarkCalendarViewLayout</item>
+        <item name="styleCaldroidMonthName">@style/CaldroidDefaultDarkMonthName</item>
+        <item name="styleCaldroidNormalCell">@style/CaldroidDefaultDarkNormalCell</item>
+        <item name="styleCaldroidSquareCell">@style/CaldroidDefaultDarkSquareCell</item>
+        <item name="styleCaldroidGridView">@style/CaldroidDefaultDarkGridView</item>
+        <item name="styleCaldroidLeftArrow">@style/CaldroidDefaultLeftButton</item>
+        <item name="styleCaldroidRightArrow">@style/CaldroidDefaultRightButton</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkCalendarViewLayout">
+        <item name="android:background">@color/window_background_color</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkMonthName" parent="CaldroidDefaultMonthName">
+        <item name="android:textColor">@color/caldroid_white</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkGridView" parent="CaldroidDefaultGridView">
+        <item name="android:background">@color/caldroid_middle_gray</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkCell" parent="CaldroidDefaultCell">
+        <item name="android:textColor">@color/cell_text_color_dark</item>
+        <item name="android:background">@drawable/cell_bg_dark_custom</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkNormalCell" parent="CaldroidDefaultDarkCell">
+        <item name="android:padding">5dp</item>
+    </style>
+
+
+    <style name="CaldroidDefaultDarkSquareCell" parent="CaldroidDefaultDarkCell" />
+    <style name="CaldroidDefaultArrowButton">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="CaldroidDefaultLeftButton" parent="CaldroidDefaultArrowButton">
+        <item name="android:background">@drawable/calendar_left</item>
+    </style>
+    <style name="CaldroidDefaultRightButton" parent="CaldroidDefaultArrowButton">
+        <item name="android:background">@drawable/calendar_right</item>
+    </style>
+
+
+</resources>

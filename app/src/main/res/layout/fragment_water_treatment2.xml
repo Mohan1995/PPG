@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393d3e"
+    tools:context=".ui.home.interactiveguide.waterandtreatment.WaterTreatment2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/centerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="80dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:layout_marginTop="-30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/water_treatment_2" />
+
+            <ImageView
+                android:id="@+id/button1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="70dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="130dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+
+            <ImageView
+                android:id="@+id/button4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="80dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/water_treatment_2"
+                android:textColor="@color/colorAccent"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/centerLayout"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tittleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Tittle"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    android:textStyle="bold"></TextView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:id="@+id/recyclerView"
+                    android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"></LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

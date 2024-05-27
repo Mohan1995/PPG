@@ -1,0 +1,220 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393d3e"
+    android:orientation="vertical"
+    tools:context="com.nauroo.ppg.ui.home.interactiveguide.mineria.MineriaFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/mining_6"
+            android:textColor="@color/colorAccent"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="-8dp"
+            android:text="@string/guide"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <FrameLayout
+            android:id="@+id/centerLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="600dp"
+                        android:layout_height="400dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/mineria_interactive_guide_page" />
+
+                    <ImageView
+                        android:id="@+id/button1"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="70dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/un_active_round_button_1" />
+
+                    <ImageView
+                        android:id="@+id/button3"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="210dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/un_active_round_button_1" />
+
+                    <ImageView
+                        android:id="@+id/button4"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="240dp"
+                        android:layout_marginTop="125dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/un_active_round_button_1" />
+
+                    <ImageView
+                        android:id="@+id/button5"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="250dp"
+                        android:layout_marginTop="225dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/un_active_round_button_1" />
+
+                    <ImageView
+                        android:id="@+id/button6"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="330dp"
+                        android:layout_marginTop="290dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/un_active_round_button_1" />
+
+                    <ImageView
+                        android:id="@+id/button7"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="450dp"
+                        android:layout_marginTop="300dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/un_active_round_button_1" />
+
+                    <ImageView
+                        android:id="@+id/button8"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="280dp"
+                        android:layout_marginTop="145dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/un_active_round_button_1" />
+
+                    <ImageView
+                        android:id="@+id/button2"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="280dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/un_active_round_button_1" />
+                </FrameLayout>
+            </ScrollView>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/centerLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tittleTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Tittle"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17sp"
+                        android:textStyle="bold"></TextView>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+                    <LinearLayout
+                        android:id="@+id/titleLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tittleTextView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Tittle"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="17sp"
+                            android:textStyle="bold"></TextView>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recyclerView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"></LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0393d3e"
+    android:orientation="vertical"
+    android:clickable="false"
+    tools:context="com.nauroo.ppg.ui.home.more.notification_and_events.events.EventsFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/linearViewImageView"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/selected_text_orange_color"
+                            android:padding="8dp"
+                            android:src="@drawable/linear_background"
+                            android:tint="@color/white" />
+
+                        <ImageView
+                            android:id="@+id/calendarViiewImageView"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="10dp"
+                            android:padding="5dp"
+                            android:src="@drawable/calendar_white"
+                            android:tint="@color/white" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/calendarViewContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/eventRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        android:text="@string/no_event_found"
+        android:textColor="@color/white"
+        android:id="@+id/noEventMessageTextView"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393d3e"
+    android:clickable="false"
+    tools:context="com.nauroo.ppg.ui.home.interactiveguide.maritimo.MaritimoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/maritime_4"
+                android:textColor="@color/colorAccent"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="-8dp"
+                android:visibility="gone"
+                android:text="@string/guide"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/centerLayout"
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:layout_height="400dp">
+
+                <ImageView
+                    android:layout_width="600dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/interactive_guide_background_1" />
+
+                <ImageView
+                    android:id="@+id/button1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="170dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/un_active_round_button" />
+
+                <ImageView
+                    android:id="@+id/button2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="270dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/un_active_round_button" />
+
+                <ImageView
+                    android:id="@+id/button3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginTop="300dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/un_active_round_button" />
+
+                <ImageView
+                    android:id="@+id/button4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="350dp"
+                    android:layout_marginTop="260dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/un_active_round_button" />
+
+                <ImageView
+                    android:id="@+id/button5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="400dp"
+                    android:layout_marginTop="300dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/un_active_round_button" />
+
+                <ImageView
+                    android:id="@+id/button6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="450dp"
+                    android:layout_marginTop="350dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/un_active_round_button" />
+
+                <ImageView
+                    android:id="@+id/button7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="530dp"
+                    android:layout_marginTop="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/un_active_round_button" />
+
+                <ImageView
+                    android:src="@drawable/un_active_round_button"
+                    android:layout_width="30dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/button8"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="30dp" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/centerLayout"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tittleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tittle"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textStyle="bold"></TextView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:id="@+id/recyclerView"
+                    android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"></LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

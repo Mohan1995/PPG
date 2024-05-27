@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_2_xl" />
+        <device id="pixel_3a_xl" />
+        <device id="pixel_3_xl" />
+        <device id="pixel" />
+        <device id="pixel_2" />
+        <target>android-29</target>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3092357b-b2c7-4fb0-8b95-5c82b4e1f3f1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app-development-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/app-development-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/nauroo/ppg/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/nauroo/ppg/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/AdvertisementResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/AdvertisementResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/AdvertisementTranslationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/AdvertisementTranslationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/CatalogsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/CatalogsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/CategoryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/CategoryModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/CityModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/CityModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/ComparatorResultModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/ComparatorResultModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/CountryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/CountryModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/DurabilitiesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/DurabilitiesModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/EnvironmentsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/EnvironmentsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/EventsResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/EventsResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/GenericResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/GenericResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/InteractiveGuideModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/InteractiveGuideModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/ManufacturerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/ManufacturerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/NewsResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/NewsResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/NotationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/NotationsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/PivotModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/PivotModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SearchResultModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SearchResultModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SearchResultTranslationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SearchResultTranslationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SegmentsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SegmentsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SubProductsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SubProductsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SubstrateModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SubstrateModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SubstrateTranslationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/SubstrateTranslationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/TemperatureModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/TemperatureModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/TranslationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/TranslationsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/network/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/network/ApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/network/NetworkAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/network/NetworkAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/network/ResponseCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/network/ResponseCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/network/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/network/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/calculator/CalculatorFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/calculator/CalculatorFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/ComparatorFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/ComparatorFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/ComparatorResultAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/ComparatorResultAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/ComparatorResultFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/ComparatorResultFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/NotationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/NotationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/SearchResultFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/SearchResultFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/TermsAndConditionFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/TermsAndConditionFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/InteractiveGuideFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/InteractiveGuideFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/InteractiveGuildRecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/InteractiveGuildRecyclerViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/certificaciones/CertificacionesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/certificaciones/CertificacionesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/certificaciones/CertificationsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/certificaciones/CertificationsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/certificaciones/PrincipleAndCertifierAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/certificaciones/PrincipleAndCertifierAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/energygeneration/EnergyGenerationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/energygeneration/EnergyGenerationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/gas_de_petroleo/GasDePetrolFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/gas_de_petroleo/GasDePetrolFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/industria_ferroviaria/IndustriaFerroviariaFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/industria_ferroviaria/IndustriaFerroviariaFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/maritimo/MarinoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/maritimo/MarinoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/maritimo/MaritimoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/maritimo/MaritimoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/mineria/MineriaFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/mineria/MineriaFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/pisos/PisosFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactive_guide/pisos/PisosFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/MoreFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/MoreFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/NotificationAndEventsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/NotificationAndEventsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/events/EventDetailFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/events/EventDetailFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/events/EventsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/events/EventsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/events/EventsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/events/EventsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationDetailFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationDetailFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/pds_and_sds/PDSfragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/pds_and_sds/PDSfragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/tank/TankFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/tank/TankFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/selector/SelectorFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/selector/SelectorFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/languageselection/LanguageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/languageselection/LanguageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/languageselection/LanguageSelectionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/languageselection/LanguageSelectionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/loginorregister/LoginOrRegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/loginorregister/LoginOrRegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/register/CustomSpinnerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/register/CustomSpinnerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/register/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/register/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/splashscreen/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/splashscreen/SplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/CalculationResultDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/CalculationResultDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/CustomSpinnerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/CustomSpinnerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/ExpandableListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/ExpandableListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/ImageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/ImageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/InteractiveGuideAlertDialoge.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/InteractiveGuideAlertDialoge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/InternetAvailability.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/InternetAvailability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/LocaleHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/LocaleHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/NotationsDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/NotationsDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/PageRefreshEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/PageRefreshEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/PreferenceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/PreferenceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/TermsAndConditionDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/TermsAndConditionDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/UserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/UserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/ViewUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/utils/ViewUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/calculator_result_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/calculator_result_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cell_bg_dark_custom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cell_bg_dark_custom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/notification_and_event_button_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/notification_and_event_button_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/progress_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/progress_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner_button_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner_button_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner_rectangle_white_backgound.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner_rectangle_white_backgound.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner_return_button_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner_return_button_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner_solid_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner_solid_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_bottom_bar_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_bottom_bar_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/today_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/today_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/activity_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/activity_language_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/activity_login_or_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/activity_login_or_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/activity_splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/calculator_result_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/calculator_result_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/category_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/category_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/content_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/content_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/content_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/content_language_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/content_login_or_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/content_login_or_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/content_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/content_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/custom_spinner_drop_down_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/custom_spinner_drop_down_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/custome_spinner_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/custome_spinner_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/events_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/events_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_calculator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_calculator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_certificaciones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_certificaciones.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_comparator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_comparator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_comparator_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_comparator_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_energy_generaton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_energy_generaton.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_event_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_event_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_gas_de_petrol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_gas_de_petrol.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_interactive_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_interactive_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_interactive_guide_detail_fragement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_interactive_guide_detail_fragement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_language.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_language.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_mineria.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_mineria.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_more.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_notification_and_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_notification_and_events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_notification_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_notification_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_pdsfragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_pdsfragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_pisos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_pisos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_search_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_search_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_second_interactive_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_second_interactive_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_tank.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_tank.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_terms_and_condition.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_terms_and_condition.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/guide_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/guide_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/interactive_guide_detail_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/interactive_guide_detail_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/item_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/notations_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/notations_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/notification_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/notification_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/sub_category_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/sub_category_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/activity_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/activity_language_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/activity_login_or_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/activity_login_or_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/activity_splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/calculator_result_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/calculator_result_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/category_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/category_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/content_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/content_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/content_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/content_language_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/content_login_or_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/content_login_or_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/content_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/content_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/custom_spinner_drop_down_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/custom_spinner_drop_down_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/custome_spinner_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/custome_spinner_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/events_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/events_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_calculator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_calculator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_certificaciones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_certificaciones.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_comparator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_comparator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_comparator_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_comparator_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_energy_generaton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_energy_generaton.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_event_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_event_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_gas_de_petrol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_gas_de_petrol.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_interactive_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_interactive_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_interactive_guide_detail_fragement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_interactive_guide_detail_fragement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_language.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_language.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_mineria.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_mineria.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_more.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_notification_and_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_notification_and_events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_notification_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_notification_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_pdsfragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_pdsfragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_pisos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_pisos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_search_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_search_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_second_interactive_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_second_interactive_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_tank.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_tank.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_terms_and_condition.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_terms_and_condition.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/guide_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/guide_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/interactive_guide_detail_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/interactive_guide_detail_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/item_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/notations_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/notations_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/notification_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/notification_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/sub_category_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/sub_category_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/activity_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/activity_language_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/activity_login_or_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/activity_login_or_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/activity_splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/calculator_result_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/calculator_result_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/category_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/category_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/content_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/content_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/content_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/content_language_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/content_login_or_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/content_login_or_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/content_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/content_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/custom_spinner_drop_down_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/custom_spinner_drop_down_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/custome_spinner_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/custome_spinner_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/events_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/events_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_calculator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_calculator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_certificaciones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_certificaciones.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_comparator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_comparator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_comparator_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_comparator_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_energy_generaton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_energy_generaton.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_event_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_event_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_gas_de_petrol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_gas_de_petrol.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_interactive_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_interactive_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_interactive_guide_detail_fragement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_interactive_guide_detail_fragement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_language.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_language.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_mineria.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_mineria.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_more.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_notification_and_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_notification_and_events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_notification_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_notification_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_pdsfragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_pdsfragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_pisos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_pisos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_search_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_search_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_second_interactive_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_second_interactive_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_tank.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_tank.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_terms_and_condition.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_terms_and_condition.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/guide_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/guide_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/interactive_guide_detail_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/interactive_guide_detail_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/item_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/notations_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/notations_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/notification_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/notification_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/sub_category_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/sub_category_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/activity_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/activity_language_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/activity_login_or_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/activity_login_or_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/activity_splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/calculator_result_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/calculator_result_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/category_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/category_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/content_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/content_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/content_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/content_language_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/content_login_or_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/content_login_or_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/content_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/content_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/custom_spinner_drop_down_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/custom_spinner_drop_down_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/custome_spinner_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/custome_spinner_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/events_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/events_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_calculator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_calculator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_certificaciones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_certificaciones.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_comparator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_comparator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_comparator_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_comparator_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_energy_generaton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_energy_generaton.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_event_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_event_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_gas_de_petrol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_gas_de_petrol.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_interactive_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_interactive_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_interactive_guide_detail_fragement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_interactive_guide_detail_fragement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_language.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_language.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_mineria.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_mineria.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_more.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_notification_and_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_notification_and_events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_notification_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_notification_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_pdsfragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_pdsfragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_pisos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_pisos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_search_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_search_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_second_interactive_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_second_interactive_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_tank.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_tank.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_terms_and_condition.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_terms_and_condition.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/guide_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/guide_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/interactive_guide_detail_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/interactive_guide_detail_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/item_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/notations_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/notations_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/notification_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/notification_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/sub_category_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/sub_category_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_language_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_or_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_or_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/calculator_result_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/calculator_result_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/category_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/category_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/certifications_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/certifications_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_language_selection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_language_selection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_login_or_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_login_or_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_drop_down.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_drop_down.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_drop_down_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_drop_down_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_drop_down_item1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_drop_down_item1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_item1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_item1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custome_spinner_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custome_spinner_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/events_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/events_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_calculator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_calculator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_certificaciones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_certificaciones.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_comparator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_comparator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_comparator_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_comparator_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_energy_generaton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_energy_generaton.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_event_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_gas_de_petrol.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_gas_de_petrol.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_interactive_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_interactive_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_interactive_guide_detail_fragement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_interactive_guide_detail_fragement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_language.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_language.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mineria.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mineria.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_more.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_more.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification_and_events.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification_and_events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pdsfragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pdsfragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pisos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pisos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second_interactive_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second_interactive_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tank.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tank.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_terms_and_condition.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_terms_and_condition.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/guide_alert_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/guide_alert_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/guide_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/guide_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/interactive_guide_detail_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/interactive_guide_detail_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/notation_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/notation_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/notations_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/notations_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/notification_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/notification_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/principle_and_certifier_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/principle_and_certifier_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sub_category_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sub_category_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/terms_and_condition_arlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/terms_and_condition_arlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/tablet_bottom_navigation_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/tablet_bottom_navigation_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-sw600dp/bools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-sw600dp/bools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-sw600dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-sw600dp/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v23/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v23/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/bools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/bools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/bools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/bools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/nauroo/ppg/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/nauroo/ppg/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keystore.properties" beforeDir="false" afterPath="$PROJECT_DIR$/keystore.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="YPM74XYHXSLV8LO7" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/ComparatorFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_comparator.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_comparator.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactiveguide/InteractiveGuideFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="78" column="60" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_interactive_guide.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/pds_and_sds/PDSfragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1438">
+              <caret line="167" column="30" lean-forward="true" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/calculator/CalculatorFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5415">
+              <caret line="403" column="17" selection-start-line="403" selection-start-column="17" selection-end-line="403" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/register/RegisterActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2400">
+              <caret line="205" column="37" selection-start-line="205" selection-start-column="37" selection-end-line="205" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Marine</find>
+      <find>marine_platform</find>
+      <find>hydroeletric_plants</find>
+      <find>hydro</find>
+      <find>interactiveGuideRecyclerView</find>
+      <find>com.codesgood.views.JustifiedTextView</find>
+      <find>JustifyText</find>
+      <find>lintOptions</find>
+      <find>design_bottom_navigation_text_size</find>
+      <find>checkEventIsExistingOrNot</find>
+      <find>VIDEO</find>
+      <find>VIDEO URL</find>
+      <find>mt2</find>
+      <find>areaValueEditText</find>
+      <find>thumbnailView</find>
+      <find>downloads</find>
+      <find>Pitt-Char XP</find>
+      <find>colorAccent</find>
+      <find>Pemex RP4-B</find>
+      <find>active_round_button</find>
+      <find>un_active_round_button</find>
+      <find>CURRENT LANGUAGE</find>
+      <find>mincroValueEditText</find>
+      <find>percentageOfLossEditText</find>
+      <find>thicknessEditText</find>
+      <find>volumeAdapter</find>
+      <find>vo</find>
+      <find>microSpinner</find>
+      <find>redimiento</find>
+      <find>loadD</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>30dp</replace>
+      <replace>un_active_round_button_1</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/src/main/java/com</dir>
+    </dirStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/app/ppg_keystore_jks.jks" />
+    <option name="KEY_ALIAS" value="Nauroo_PPG" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/circle_shadow.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mineria.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactiveguide/mineria/MineriaFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_mineria.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_mineria.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_mineria.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_mineria.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_gas_de_petrol.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_gas_de_petrol.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_gas_de_petrol.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_gas_de_petrol.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_gas_de_petrol.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactiveguide/gas_de_petroleo/GasDePetrolFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/splashscreen/SplashScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactiveguide/InteractiveGuideFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactiveguide/InteractiveGuildRecyclerViewAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_water_treatment2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_water_treatment2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_water_treatment2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactiveguide/waterandtreatment/WaterTreatment2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_water_treatment2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_water_treatment2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_notification_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_notification_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationDetailFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/notification_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/notification_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/notification_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/notification_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/notification_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_notification_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_notification_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_calculator.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_calculator.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_calculator.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_calculator.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_calculator.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-sw600dp/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_water_and_treatment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_water_and_treatment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_water_and_treatment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_water_and_treatment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/calculator/CalculatorFragment.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PPG" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="PPG" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="PPG" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="nauroo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="nauroo" type="462c0819:PsiDirectoryNode" />
+              <item name="ppg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="nauroo" type="462c0819:PsiDirectoryNode" />
+              <item name="ppg" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="nauroo" type="462c0819:PsiDirectoryNode" />
+              <item name="ppg" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="nauroo" type="462c0819:PsiDirectoryNode" />
+              <item name="ppg" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="more" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="nauroo" type="462c0819:PsiDirectoryNode" />
+              <item name="ppg" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="more" type="462c0819:PsiDirectoryNode" />
+              <item name="pds_and_sds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout-sw600dp-land" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout-sw600dp-port" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout-sw720dp-land" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PPG" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout-sw720dp-port" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PPG" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="PPG" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="values" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="PPG" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="values-es" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="PPG" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="values-sw600dp" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="PPG" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="values-v21" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="PPG" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="values-v23" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="PPG" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
+              <item name="values-w820dp" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="YPM74XYHXSLV8LO7" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-09-09T02:59:11.555Z" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="ExportApk.BuildVariants" value="productionRelease" />
+    <property name="ExportApk.Flavors" value="production" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ScreenshotViewer.SavePath" value="$PROJECT_DIR$" />
+    <property name="algorithm" value="Scalr" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="asset" value="rO0ABXNyADxkZS5tcHJlbmdlbWFubi5pbnRlbGxpai5wbHVnaW4uYW5kcm9pZGljb25zLm1vZGVsLkltYWdlQXNzZXQl990GqIfF7gIABkwACGNhdGVnb3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAGY29sb3JzdAAQTGphdmEvdXRpbC9MaXN0O0wABG5hbWVxAH4AAUwABHBhY2txAH4AAUwAC3Jlc29sdXRpb25zcQB+AAJMAAVzaXplc3EAfgACeHB0AANhbGxzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAADncEAAAADnQABWJsYWNrdAAJYmx1ZV9kYXJrdAAKYmx1ZV9saWdodHQACmdyZWVuX2Rhcmt0AAtncmVlbl9saWdodHQACWhvbG9fZGFya3QACmhvbG9fbGlnaHR0AAtwdXJwbGVfZGFya3QADHB1cnBsZV9saWdodHQACHJlZF9kYXJrdAAJcmVkX2xpZ2h0dAAFd2hpdGV0AAt5ZWxsb3dfZGFya3QADHllbGxvd19saWdodHh0ABFpY19hY3Rpb25feW91dHViZXQADWFuZHJvaWRfaWNvbnNzcQB+AAUAAAAFdwQAAAAFfnIAPGRlLm1wcmVuZ2VtYW5uLmludGVsbGlqLnBsdWdpbi5hbmRyb2lkaWNvbnMubW9kZWwuUmVzb2x1dGlvbgAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABEhEUEl+cQB+ABh0AARMRFBJfnEAfgAYdAAETURQSX5xAH4AGHQABVhIRFBJfnEAfgAYdAAGWFhIRFBJeHNxAH4ABQAAAAF3BAAAAAF0AAQxOGRweA==" />
+    <property name="color" value="black" />
+    <property name="device.picker.selection" value="192.168.60.101:5555" />
+    <property name="format" value="PNG" />
+    <property name="lastFolderRoot" value="$USER_HOME$/Downloads/Archive (1)/interactive_guide_background.png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port" />
+    <property name="method" value="Automatic" />
+    <property name="resolutions" value="XHDPI&#10;MDPI&#10;XXHDPI&#10;XXXHDPI&#10;HDPI" />
+    <property name="resourcesRoot" value="file://$PROJECT_DIR$/app/src/main/res" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.2.2" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="size" value="18dp" />
+    <property name="sourceResolution" value="XHDPI" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.nauroo.ppg.ui.home.more.notification_and_events.notification" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3092357b-b2c7-4fb0-8b95-5c82b4e1f3f1" name="Default" comment="" />
+      <created>1538659112244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538659112244</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35121602" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328084" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32545933" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.4983845" visible="true" weight="0.30708662" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.32928678" />
+      <window_info anchor="bottom" id="Logcat" order="11" weight="0.32713756" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32939634" />
+      <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="GraphQL" order="14" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32961586" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Flutter Outline" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Preview" order="10" weight="0.32689556" />
+      <window_info anchor="right" id="Assistant" order="11" weight="0.32904148" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Captures" order="6" weight="0.25" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32776934" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.4983845" visible="true" weight="0.32776934" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.32928678" />
+      <window_info anchor="bottom" id="Logcat" order="11" weight="0.32928678" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Flutter Performance" order="13" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info active="true" anchor="right" id="Preview" order="10" visible="true" weight="0.32956383" />
+      <window_info anchor="right" id="Assistant" order="11" weight="0.32956383" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ppg1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/notification_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/notification_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/notification_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/notification_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_notification_detail.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/notification_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_notification_detail.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_notification_detail.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4605">
+          <caret line="351" selection-start-line="351" selection-end-line="351" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/NotificationAndEventsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationDetailFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="148" column="34" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/notification_and_events/notification/NotificationAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="4009" column="67" selection-start-line="4009" selection-start-column="49" selection-end-line="4009" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactiveguide/hydroelectricplant/HydroelectricPlantFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="280" column="61" selection-start-line="280" selection-start-column="61" selection-end-line="280" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_calculator.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3495">
+          <caret line="233" column="45" selection-start-line="233" selection-start-column="45" selection-end-line="233" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-es/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60720">
+          <caret line="4048" column="11" selection-start-line="4048" selection-start-column="11" selection-end-line="4048" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_calculator.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="210" column="56" selection-start-line="210" selection-start-column="56" selection-end-line="210" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_calculator.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="216" column="29" selection-start-line="216" selection-start-column="29" selection-end-line="216" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-sw600dp/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactiveguide/waterandtreatment/WaterAndTreatmentFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="110" column="52" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw720dp-port/fragment_water_and_treatment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_water_and_treatment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="32" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_water_and_treatment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="107" column="45" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw600dp-port/fragment_water_and_treatment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_water_and_treatment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw600dp-land/fragment_calculator.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3210">
+          <caret line="214" column="40" selection-start-line="214" selection-start-column="40" selection-end-line="214" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v23/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/comparator_background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/interactive_guide_background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/calculator_background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/language_selection_background_port.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/calculator_result_background.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_calculator.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3735">
+          <caret line="249" column="20" selection-start-line="249" selection-start-column="20" selection-end-line="249" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tobiasschuerg/android-prefix-suffix-edit-text/1.3.1/4d9a6a0a485d94fe7881810e9245450651a3e832/android-prefix-suffix-edit-text-1.3.1-sources.jar!/com/tobiasschuerg/prefixsuffix/PrefixSuffixEditText.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/comparator/ComparatorFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_comparator.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-sw720dp-land/fragment_comparator.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/interactiveguide/InteractiveGuideFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="78" column="60" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_interactive_guide.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/calculator/CalculatorFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5415">
+          <caret line="403" column="17" selection-start-line="403" selection-start-column="17" selection-end-line="403" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/register/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="205" column="37" selection-start-line="205" selection-start-column="37" selection-end-line="205" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nauroo/ppg/ui/home/more/pds_and_sds/PDSfragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1438">
+          <caret line="167" column="30" lean-forward="true" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

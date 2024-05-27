@@ -1,0 +1,138 @@
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#393d3e"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    tools:context="com.nauroo.ppg.ui.home.interactiveguide.industria_ferroviaria.IndustriaFerroviariaFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/centerLayout"
+        android:layout_height="350dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/interactive_guide2"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:src="@drawable/un_active_round_button"
+            android:layout_width="20dp"
+            android:scaleType="fitXY"
+            android:id="@+id/button1"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="240dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:src="@drawable/un_active_round_button"
+            android:layout_width="20dp"
+            android:id="@+id/button2"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="280dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:src="@drawable/un_active_round_button"
+            android:layout_width="20dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/button3"
+            android:layout_height="20dp" />
+        <ImageView
+            android:src="@drawable/un_active_round_button"
+            android:layout_width="20dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="end"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="110dp"
+            android:id="@+id/button4"
+            android:layout_height="20dp" />
+        <ImageView
+            android:src="@drawable/un_active_round_button"
+            android:layout_width="20dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:id="@+id/button5"
+            android:layout_marginTop="260dp"
+            android:layout_height="20dp" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/railway_industry_5"
+            android:textColor="@color/colorAccent"
+            android:textSize="28sp"
+            android:layout_gravity="end"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guide"
+            android:visibility="gone"
+            android:layout_gravity="end"
+            android:layout_marginTop="-8dp"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@id/centerLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Tittle"
+            android:id="@+id/tittleTextView"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerView"
+            android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></LinearLayout>
+
+    </LinearLayout>
+    </RelativeLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

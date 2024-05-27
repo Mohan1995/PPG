@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0078a9</color>
+    <color name="colorPrimaryDark">#0078a9</color>
+    <color name="colorAccent">#3dabd0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background_grey_color">#edeef0</color>
+    <color name="selected_text_orange_color">#ff7c13</color>
+    <color name="default_text_color">#737373</color>
+    <color name="bottom_navigation_default_selection_color">#bcbcbc</color>
+    <color name="bottom_navigation_selection_color">#0078a9</color>
+    <color name="selected_button_text_color">#0078a9</color>
+    <color name="un_selected_button_text_color">#bcbcbc</color>
+    <color name="un_selected_button_background_color">#f6f4f4</color>
+    <color name="window_background_color">#393d3e</color>
+    <color name="today_date_color">#ff7c13</color>
+    <color name="cell_expanded_color">#2f3233</color>
+    <color name="status_bar_color">#fefefe</color>
+    <color name="calculator_hint_color">#AAAAAA</color>
+    <color name="edit_text_activated_color">#00AFF3</color>
+    <color name="estimation_text_color">#00AFF3</color>
+</resources>

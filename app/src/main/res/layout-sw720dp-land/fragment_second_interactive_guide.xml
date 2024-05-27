@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393d3e"
+    android:clickable="false"
+    android:orientation="vertical"
+    tools:context="com.nauroo.ppg.ui.home.interactiveguide.industria_ferroviaria.IndustriaFerroviariaFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/railway_industry_5"
+            android:textColor="@color/colorAccent"
+            android:textSize="28sp"
+            android:layout_gravity="end"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guide"
+            android:layout_gravity="end"
+            android:visibility="gone"
+            android:layout_marginTop="-8dp"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="20dp"
+        android:layout_height="400dp">
+        <FrameLayout
+            android:id="@+id/centerLayout"
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="600dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/interactive_guide2" />
+
+            <ImageView
+                android:id="@+id/button1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="280dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="320dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="90dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="440dp"
+                android:layout_marginTop="130dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="520dp"
+                android:layout_marginTop="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/centerLayout"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:id="@+id/tittleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tittle"
+                android:textColor="@color/colorAccent"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:textStyle="bold"></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/recyclerView"
+                android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

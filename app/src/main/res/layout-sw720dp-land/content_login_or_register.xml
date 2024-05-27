@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_login_or_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nauroo.ppg.ui.loginorregister.LoginOrRegisterActivity"
+    tools:showIn="@layout/activity_login_or_register">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_marginTop="-120dp"
+        android:src="@drawable/loginorregister"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:tint="@color/white"
+            android:src="@drawable/news_top_image"
+            android:layout_height="120dp" />
+        <ImageView
+            android:layout_width="70dp"
+            android:src="@drawable/app_logo"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="70dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="130dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/welcome_to_our_ppg_comex_application"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:backgroundTint="#3ec7f4"
+                android:textColor="@color/white"
+                android:id="@+id/skipButton"
+                android:textSize="21sp"
+                android:textAllCaps="false"
+                android:text="@string/skip"
+                android:layout_height="60dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/white"
+                android:textColor="#0078a9"
+                android:id="@+id/registerButton"
+                android:textAllCaps="false"
+                android:textSize="21sp"
+                android:text="@string/register"
+                android:layout_height="60dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

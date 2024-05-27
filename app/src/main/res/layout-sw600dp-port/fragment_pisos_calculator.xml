@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".ui.home.more.pisos.PisosCalculator">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="450dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/pisos_calculator_background" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/news_top_image"
+                            android:tint="@color/white" />
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="50dp"
+                            android:src="@drawable/app_logo" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:gravity="end"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/calculator_2"
+                            android:textColor="#0582CA"
+                            android:textSize="45sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="@string/floors"
+                            android:textColor="#000000"
+                            android:textSize="45sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1.4"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.8">
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <RadioButton
+                                android:id="@+id/mt2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:checked="true"
+                                android:backgroundTint="@color/edit_text_activated_color"
+                                android:buttonTint="@color/edit_text_activated_color"
+                                android:text="@string/mt2"
+                                android:textColor="@color/edit_text_activated_color"
+                                android:textSize="14sp" />
+
+                            <RadioButton
+                                android:id="@+id/ft2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:backgroundTint="@color/edit_text_activated_color"
+                                android:buttonTint="@color/edit_text_activated_color"
+                                android:text="@string/ft2"
+                                android:textSize="14sp"
+                                android:textColor="@color/edit_text_activated_color" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1.2">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@color/edit_text_activated_color">
+
+                            <com.tobiasschuerg.prefixsuffix.PrefixSuffixEditText
+                                android:id="@+id/areaValueEditText"
+                                style="@style/EditTextStyleNew1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/area_value"
+                                android:inputType="numberDecimal"
+                                android:paddingTop="5dp"
+                                android:singleLine="true"
+                                android:textColor="@color/calculator_hint_color"
+                                android:textColorHint="@color/calculator_hint_color"
+                                android:textSize="18sp"
+                                android:theme="@style/EditTextStyleNew1" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/companySpinner"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="5dp"
+                    android:theme="@style/SpinnerStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/volume_value"
+                        android:textColor="@color/calculator_hint_color"
+                        android:textSize="16sp" />
+
+
+
+                    <EditText
+                        style="@style/EditTextStyleNew1"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:id="@+id/volumeValueEditText"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:inputType="number"
+                        android:textColor="@color/calculator_hint_color"
+                        android:layout_marginLeft="10dp"
+                        android:theme="@style/EditTextStyleNew1">
+
+                    </EditText>
+
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/optionSpinner"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="5dp"
+                    android:theme="@style/SpinnerStyle" />
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/thickness"
+                            android:textColor="@color/edit_text_activated_color"
+                            android:textSize="18sp" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/eps"
+                                android:textColor="@color/calculator_hint_color"
+                                android:textSize="16sp" />
+
+                            <EditText
+                                style="@style/EditTextStyleNew1"
+                                android:layout_width="match_parent"
+                                android:layout_height="47dp"
+                                android:textSize="18sp"
+                                android:id="@+id/epsEditText"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/calculator_hint_color"
+                                android:theme="@style/EditTextStyleNew1">
+
+                            </EditText>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            android:gravity="center"
+                            android:id="@+id/epsIndicatorTextView"
+                            android:textColor="@color/calculator_hint_color"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/percentage_loss"
+                            android:textColor="@color/edit_text_activated_color"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/merma"
+                                android:textColor="@color/calculator_hint_color"
+                                android:textSize="16sp" />
+
+                            <EditText
+                                style="@style/EditTextStyleNew1"
+                                android:layout_width="match_parent"
+                                android:layout_height="47dp"
+                                android:textSize="18sp"
+                                android:gravity="center"
+                                android:id="@+id/mermaEditText"
+                                android:inputType="number"
+                                android:textColor="@color/calculator_hint_color"
+                                android:layout_marginLeft="10dp"
+                                android:theme="@style/EditTextStyleNew1">
+
+                            </EditText>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/mixRatioLayout"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/mix_ratio"
+                                android:textColor="@color/calculator_hint_color"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="2"
+                                android:layout_marginLeft="10dp"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    style="@style/EditTextStyleNew1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="47dp"
+                                    android:layout_weight="1"
+                                    android:textSize="18sp"
+                                    android:gravity="center"
+                                    android:id="@+id/mixRatio1EdiText"
+                                    android:inputType="number"
+                                    android:textColor="@color/calculator_hint_color"
+                                    android:theme="@style/EditTextStyleNew1"/>
+
+                                <TextView
+                                    android:layout_width="30dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="@string/colun"
+                                    android:gravity="center"
+                                    android:textColor="@color/calculator_hint_color"
+                                    android:textSize="18sp" />
+
+                                <EditText
+                                    style="@style/EditTextStyleNew1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="47dp"
+                                    android:layout_weight="1"
+                                    android:textSize="18sp"
+                                    android:gravity="center"
+                                    android:id="@+id/mixRatio2EdiText"
+                                    android:inputType="number"
+                                    android:textColor="@color/calculator_hint_color"
+                                    android:theme="@style/EditTextStyleNew1"/>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/solventLayout"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/solvent"
+                                android:textColor="@color/calculator_hint_color"
+                                android:textSize="16sp" />
+
+                            <EditText
+                                style="@style/EditTextStyleNew1"
+                                android:layout_width="match_parent"
+                                android:layout_height="47dp"
+                                android:textSize="18sp"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:id="@+id/solventEditText"
+                                android:textColor="@color/calculator_hint_color"
+                                android:layout_marginLeft="10dp"
+                                android:theme="@style/EditTextStyleNew1">
+
+                            </EditText>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/calculateButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/caculate_button_blue_background"
+                    android:letterSpacing="0.2"
+                    android:text="@string/calculate"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/deleteButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/earse_button_blue_holo_background"
+                    android:text="@string/delet"
+                    android:textAllCaps="true"
+                    android:letterSpacing="0.2"
+                    android:textColor="#0078a9"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"></LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

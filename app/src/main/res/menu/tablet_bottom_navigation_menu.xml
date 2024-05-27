@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/calculator"
+        android:enabled="true"
+        android:icon="@drawable/calculator"
+        android:title="@string/calculator"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/comparator"
+        android:enabled="true"
+        android:icon="@drawable/tablet_comparator_icon"
+        android:title="@string/comparator_big"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/interactive_guide"
+        android:enabled="true"
+        android:icon="@drawable/tablet_interactive_guide_icon"
+        android:title="@string/interactive_guide"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/pds_sds"
+        android:enabled="true"
+        android:icon="@drawable/tablet_pds_sds_icon"
+        android:title="@string/pds_sds"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/more"
+        android:enabled="true"
+        android:icon="@drawable/menu_more"
+        android:title="@string/more"
+        app:showAsAction="ifRoom" />
+</menu>

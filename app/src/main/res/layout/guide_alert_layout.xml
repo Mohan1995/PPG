@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/topLayout"
+        android:background="@drawable/calculator_result_background"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="17sp"
+                android:id="@+id/contentTextView"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" />
+         <View
+             android:layout_width="match_parent"
+             android:background="#85ffffff"
+             android:layout_height="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:scrollbars="vertical"
+                android:id="@+id/acceptTextView"
+                android:textColor="@color/white"
+                android:text="@string/accpet"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

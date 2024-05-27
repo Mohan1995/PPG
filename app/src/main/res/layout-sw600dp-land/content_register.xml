@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393d3e"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nauroo.ppg.ui.register.RegisterActivity"
+    tools:showIn="@layout/activity_register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/rectangular_white_shape"
+                android:layout_height="100dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:src="@drawable/arrow_left"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/backImageVew"
+                    android:layout_centerVertical="true"
+                    android:layout_height="25dp" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/app_logo"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/backImageVew"
+                    android:layout_height="50dp" />
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="end"
+                    android:layout_gravity="end"
+                    android:id="@+id/tittleTextView"
+                    android:text="@string/user_registration"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="19sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/userNameTextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:theme="@style/TextInputStyle">
+
+                    <EditText
+                        android:id="@+id/userNameEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/name_and_surname"
+                        android:paddingTop="5dp"
+                        android:singleLine="true"
+                        android:textSize="16sp"
+                        app:theme="@style/EditTextStyle" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/emailInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:theme="@style/TextInputStyle">
+
+                    <EditText
+                        android:id="@+id/emailEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email"
+                        android:paddingTop="5dp"
+                        android:singleLine="true"
+                        android:textSize="16sp"
+                        app:theme="@style/EditTextStyle" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/companyInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:theme="@style/TextInputStyle">
+
+                    <EditText
+                        android:id="@+id/companyEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/company"
+                        android:paddingTop="5dp"
+                        android:singleLine="true"
+                        android:textSize="16sp"
+                        app:theme="@style/EditTextStyle" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/cityInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:theme="@style/TextInputStyle">
+
+                    <EditText
+                        android:id="@+id/cityEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/city"
+                        android:paddingTop="5dp"
+                        android:singleLine="true"
+                        android:textSize="16sp"
+                        app:theme="@style/EditTextStyle" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/segmentInputField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:theme="@style/TextInputStyle">
+
+                    <EditText
+                        android:id="@+id/segmentEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/segment"
+                        android:paddingTop="5dp"
+                        android:singleLine="true"
+                        android:textSize="16sp"
+                        app:theme="@style/EditTextStyle" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <Spinner
+                    android:id="@+id/segmentSpinner"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:theme="@style/SpinnerStyle"></Spinner>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <CheckBox
+                        android:id="@+id/checkBox1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingRight="10dp"
+                        android:paddingTop="5dp"
+                        android:text="@string/i_want_to_be_contacted_by_an_executive"
+                        android:textColor="@color/colorAccent" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingTop="5dp"
+                        android:text="@string/i_wish_to_receive_information"
+                        android:textColor="@color/colorAccent" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/signUpButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="80dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/white"
+                    android:text="@string/sign_up"
+                    android:textAllCaps="false"
+                    android:textColor="#0078a9"
+                    android:textSize="19sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

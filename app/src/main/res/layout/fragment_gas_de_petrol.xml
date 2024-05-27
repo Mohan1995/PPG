@@ -1,0 +1,131 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393d3e"
+    tools:context="com.nauroo.ppg.ui.home.interactiveguide.gas_de_petroleo.GasDePetrolFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="right"
+                android:text="@string/oil_gas_complement"
+                android:textColor="@color/colorAccent"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/centerLayout"
+            android:layout_width="370dp"
+            android:layout_gravity="center"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/gas_y_petrol_image" />
+
+            <ImageView
+                android:id="@+id/button1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="90dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="160dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="175dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="155dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="135dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+
+        </FrameLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/centerLayout"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tittleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="15dp"
+                    android:text="Tittle"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp"
+                    android:textStyle="bold"></TextView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"></LinearLayout>
+            </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

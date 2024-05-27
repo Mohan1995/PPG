@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:background="#393d3e"
+    android:orientation="vertical"
+    tools:context="com.nauroo.ppg.ui.home.more.notification_and_events.notification.NotificationDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginRight="20dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tittleLayout"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tittleTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3caed4"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/videoLayout"
+                        android:visibility="gone"
+                        android:layout_height="350dp">
+                        <com.google.android.youtube.player.YouTubeThumbnailView
+                            android:id="@+id/thumbnailView"
+                            android:scaleType="fitXY"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <ImageView android:id="@+id/btnYoutube_player"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerInParent="true"
+                            android:tint="@color/colorPrimary"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_action_youtube"/>
+                    </RelativeLayout>
+                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                        android:id="@+id/bodyTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/white"
+                        android:paddingBottom="20dp"
+                        android:lineSpacingExtra="3dp"
+                        android:textSize="17sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+
+</LinearLayout>
+</LinearLayout>

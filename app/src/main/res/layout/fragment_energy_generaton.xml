@@ -1,0 +1,155 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393d3e"
+    tools:context="com.nauroo.ppg.ui.home.interactiveguide.gas_de_petroleo.GasDePetrolFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="right"
+                android:text="@string/energy_generatoin"
+                android:textColor="@color/colorAccent"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/centerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/energy_generation_image" />
+
+            <ImageView
+                android:id="@+id/button1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="90dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+            <ImageView
+                android:id="@+id/button2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="220dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="235dp"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="-30dp"
+                android:src="@drawable/un_active_round_button" />
+
+
+            <ImageView
+                android:id="@+id/button4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="70dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button6"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="110dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button7"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button8"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="225dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+            <ImageView
+                android:id="@+id/button9"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="110dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/un_active_round_button" />
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/centerLayout"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

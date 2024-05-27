@@ -1,0 +1,132 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../.gradle/caches/transforms-3/01d5e8569fa31ffa36c8299dd7d562ec/transformed/jetified-caldroidx-1.0/res/drawable/left_arrow.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/caculate_button_blue_background.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/calculate_button_blue_background.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/calculator_result_background.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/earse_button_blue_holo_background.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/rounded_corner_button_background.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/rounded_corner_return_button_background.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/rounded_corner_solid_background.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/selector_bottom_bar_item.xml" value="0.2085" />
+        <entry key="app/src/main/res/layout-sw600dp-land/activity_splash_screen.xml" value="0.4228515625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/custome_spinner_item.xml" value="0.4228515625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_certificaciones.xml" value="0.4228515625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_energy_generaton.xml" value="0.4153674832962138" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_gas_de_petrol.xml" value="0.75" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_hydroelectric_plant.xml" value="1.622737121582031" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_industrial_ship.xml" value="1.572905231344289" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_interactive_guide_detail_fragement.xml" value="0.505420054200542" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_marine_platform.xml" value="1.4334396362304689" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_mineria.xml" value="0.625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_more.xml" value="0.3140877598152425" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_pf.xml" value="1.80322265625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_pisos.xml" value="1.1675811767578126" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_pisos2.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_pisos_calculator.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_professional_protection.xml" value="1.0989212036132812" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_refinery.xml" value="1.6292999267578125" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_second_interactive_guide.xml" value="0.55" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_selector.xml" value="0.4228515625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_structures.xml" value="1.0" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_water_and_treatment.xml" value="0.7754677754677755" />
+        <entry key="app/src/main/res/layout-sw600dp-land/fragment_water_treatment2.xml" value="0.5720858895705522" />
+        <entry key="app/src/main/res/layout-sw600dp-land/pisos_calculator_result_efm104_mortero_layout.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/pisos_calculator_result_efm104_primary_layout.xml" value="0.375" />
+        <entry key="app/src/main/res/layout-sw600dp-land/pisos_calculator_result_efm105_auto_layout.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/pisos_calculator_result_efm105_pintura_layout.xml" value="0.335" />
+        <entry key="app/src/main/res/layout-sw600dp-land/pisos_calculator_result_ufc20_e10.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw600dp-land/pisos_calculator_result_ultrafacil.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw600dp-port/content_register.xml" value="0.5810546875" />
+        <entry key="app/src/main/res/layout-sw600dp-port/fragment_mineria.xml" value="0.45" />
+        <entry key="app/src/main/res/layout-sw600dp-port/fragment_more.xml" value="0.3469551282051282" />
+        <entry key="app/src/main/res/layout-sw600dp-port/fragment_pisos2.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw600dp-port/fragment_pisos_calculator.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-sw600dp-port/pisos_calculator_result_efm104_mortero_layout.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw600dp-port/pisos_calculator_result_efm104_primary_layout.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw600dp-port/pisos_calculator_result_efm105_auto_layout.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw600dp-port/pisos_calculator_result_efm105_pintura_layout.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw600dp-port/pisos_calculator_result_ufc20_e10.xml" value="0.335" />
+        <entry key="app/src/main/res/layout-sw600dp-port/pisos_calculator_result_ultrafacil.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw720dp-land/activity_splash_screen.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw720dp-land/fragment_more.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp-land/fragment_pisos.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw720dp-land/fragment_pisos2.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw720dp-land/fragment_pisos_calculator.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw720dp-land/pisos_calculator_result_efm104_mortero_layout.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw720dp-land/pisos_calculator_result_efm104_primary_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp-land/pisos_calculator_result_efm105_auto_layout.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw720dp-land/pisos_calculator_result_efm105_pintura_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp-land/pisos_calculator_result_ufc20_e10.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw720dp-land/pisos_calculator_result_ultrafacil.xml" value="0.169140625" />
+        <entry key="app/src/main/res/layout-sw720dp-port/activity_splash_screen.xml" value="0.116796875" />
+        <entry key="app/src/main/res/layout-sw720dp-port/fragment_more.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp-port/fragment_pisos.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw720dp-port/fragment_pisos2.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw720dp-port/fragment_pisos_calculator.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw720dp-port/pisos_calculator_result_efm104_mortero_layout.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw720dp-port/pisos_calculator_result_efm104_primary_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp-port/pisos_calculator_result_efm105_auto_layout.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw720dp-port/pisos_calculator_result_efm105_pintura_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-sw720dp-port/pisos_calculator_result_ufc20_e10.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout-sw720dp-port/pisos_calculator_result_ultrafacil.xml" value="0.1478825136612022" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_language_selection.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/layout/activity_login_or_register.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/layout/calculator_result_layout.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/certifications_layout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/content_home.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/content_register.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/custom_spinner_drop_down_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/custom_spinner_drop_down_item1.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/custom_spinner_item_1.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/custome_spinner_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/events_layout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_calculator.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_certificaciones.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_comparator.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_comparator_result.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_event_detail.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/fragment_events.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_interactive_guide.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_interactive_guide_detail_fragement.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_language.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_mineria.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_more.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_notification_and_events.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_notification_detail.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_pisos2.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_pisos_calculator.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_selector.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/layout/fragment_structures.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_terms_and_condition.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/guide_layout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/interactive_guide_detail_layout.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/item_layout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/notification_layout.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/pisos_calculator_result_efm104_mortero_layout.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/pisos_calculator_result_efm104_primary_layout.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/pisos_calculator_result_efm105_auto_layout.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/pisos_calculator_result_efm105_pintura_layout.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/pisos_calculator_result_layout.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/pisos_calculator_result_layout_1.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/pisos_calculator_result_ufc20_e10.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/pisos_calculator_result_ultrafacil.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/principle_and_certifier_layout.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/terms_and_condition_arlet.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2953125" />
+        <entry key="app/src/main/res/menu/tablet_bottom_navigation_menu.xml" value="0.2953125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

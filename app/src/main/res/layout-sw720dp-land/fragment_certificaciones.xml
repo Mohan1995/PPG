@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="false"
+    tools:context="com.nauroo.ppg.ui.home.interactiveguide.InteractiveGuideFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:background="@drawable/tablet_interactive_guide_background"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/calculatorBackgroundImage"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/news_top_image"
+                android:tint="@color/white" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:tint="@color/colorPrimary"
+                    android:layout_width="30dp"
+                    android:src="@drawable/arrow_left"
+                    android:id="@+id/backImageVew"
+
+                    android:layout_gravity="center"
+                    android:layout_height="30dp" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:src="@drawable/app_logo"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:layout_marginRight="80dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type_of"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/certifications"
+                    android:layout_marginTop="-8dp"
+                    android:textSize="23sp"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/certificationsRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="30dp"></androidx.recyclerview.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

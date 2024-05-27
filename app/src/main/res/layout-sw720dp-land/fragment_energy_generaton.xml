@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#393d3e"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.nauroo.ppg.ui.home.interactiveguide.mineria.MineriaFragment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="end"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/energy_generatoin"
+            android:textColor="@color/colorAccent"
+            android:textSize="28sp"
+            android:layout_gravity="end"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guide"
+            android:layout_marginTop="-8dp"
+            android:visibility="gone"
+            android:layout_gravity="end"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:id="@+id/centerLayout"
+            android:layout_height="400dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitStart"
+                android:src="@drawable/energy_generation_image"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:src="@drawable/un_active_round_button"
+                android:layout_width="30dp"
+                android:scaleType="fitXY"
+                android:id="@+id/button1"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="140dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:src="@drawable/un_active_round_button"
+                android:layout_width="30dp"
+                android:scaleType="fitXY"
+                android:id="@+id/button2"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="330dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:src="@drawable/un_active_round_button"
+                android:layout_width="30dp"
+                android:scaleType="fitXY"
+                android:id="@+id/button3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="-30dp"
+                android:layout_marginTop="370dp"
+                android:layout_height="30dp" />
+
+
+            <ImageView
+                android:src="@drawable/un_active_round_button"
+                android:layout_width="30dp"
+                android:scaleType="fitXY"
+                android:id="@+id/button4"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="90dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:src="@drawable/un_active_round_button"
+                android:layout_width="30dp"
+                android:scaleType="fitXY"
+                android:id="@+id/button5"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="120dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:src="@drawable/un_active_round_button"
+                android:layout_width="30dp"
+                android:scaleType="fitXY"
+                android:id="@+id/button6"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="180dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:src="@drawable/un_active_round_button"
+                android:layout_width="30dp"
+                android:scaleType="fitXY"
+                android:id="@+id/button7"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="250dp"
+                android:layout_height="30dp" />
+
+            <ImageView
+                android:src="@drawable/un_active_round_button"
+                android:layout_width="30dp"
+                android:scaleType="fitXY"
+                android:id="@+id/button8"
+                android:layout_marginLeft="550dp"
+                android:layout_marginTop="180dp"
+                android:layout_height="30dp" />
+
+            <ImageView
+                android:src="@drawable/un_active_round_button"
+                android:layout_width="30dp"
+                android:scaleType="fitXY"
+                android:id="@+id/button9"
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="400dp"
+                android:layout_height="30dp" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:paddingLeft="15dp"
+            android:layout_weight="0.8"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/centerLayout"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/recyclerView"
+                android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"></LinearLayout>
+
+
+</LinearLayout>
